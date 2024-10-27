@@ -13,7 +13,7 @@ Example R6 morph layout
 By default, morphs containing shirt and pants will be automatically applied. Models inside the morph must be named as body parts in a character. Each body part model should contain a "middle" part that is a reference point for where parts inside that body part will be placed.
 
 Example code for applying a morph when a player spawns
-```lua
+```luau
 -- Services
 local PlayerService = game:GetService("Players")
 local ServerStorage = game:GetService("ServerStorage")
